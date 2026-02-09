@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cursos - BRASIL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">BRASIL</div>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="otimizacao.html">Otimização</a>
+    <a href="cursos.html">Cursos</a>
+    <a href="giftcards.html">Gift Cards</a>
+  </nav>
+</header>
+
+<section class="produtos">
+  <h2>Cursos Fortnite</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="imagens/curso.png">
+      <h3>Curso Starter</h3>
+      <p>Base competitiva, builds, edits e noção de jogo.</p>
+      <span>R$ 8,00</span>
+      <a class="buy" href="pagamento.html?produto=Curso Starter - R$8">Comprar</a>
+    </div>
+
+    <div class="card">
+      <img src="imagens/curso.png">
+      <h3>Curso Avançado</h3>
+      <p>Gameplay competitivo, tomada de decisão e fights.</p>
+      <span>R$ 15,00</span>
+      <a class="buy" href="pagamento.html?produto=Curso Avançado - R$15">Comprar</a>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
