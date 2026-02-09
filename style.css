@@ -156,5 +156,13 @@ body {
   background: #fff;
   border-radius: 16px;
 }
+.sidebar {
+  width: 260px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+}
+
 
 
