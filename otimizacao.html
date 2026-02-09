@@ -7,29 +7,36 @@
 </head>
 <body>
 
-<div class="sidebar">
-  <h1>BRASIL</h1>
-  <input type="text" placeholder="Digite o que você procura">
-  <div class="menu">
-    <a href="index.html">Início</a>
-    <a href="otimizacao.html">Otimização</a>
-    <a href="cursos.html">Cursos</a>
-    <a href="giftcards.html">Gift Cards</a>
-  </div>
-</div>
+<div class="layout">
 
-<div class="content">
-  <h2>Otimização</h2>
+  <!-- SIDEBAR (IGUAL AO INÍCIO) -->
+  <aside class="sidebar">
+    <h1 class="logo">VTR</h1>
 
-  <div class="produtos">
-    <div class="card">
-      <img src="img/otimizacao.png">
-      <h3>Otimização Fortnite</h3>
-      <p>FPS alto e input lag reduzido</p>
-      <strong>R$ 15,00</strong>
-      <button>Comprar</button>
+    <input class="search" placeholder="Digite o que você procura">
+
+    <nav class="menu">
+      <a href="index.html">Início</a>
+      <a href="otimizacao.html" class="active">Otimização</a>
+      <a href="cursos.html">Cursos</a>
+      <a href="giftcards.html">Gift Cards</a>
+    </nav>
+  </aside>
+
+  <!-- CONTEÚDO -->
+  <main class="main category">
+
+    <h1 class="category-title">OTIMIZAÇÃO</h1>
+
+    <div class="grid">
+      <div class="card">Produto 1</div>
+      <div class="card">Produto 2</div>
+      <div class="card">Produto 3</div>
+      <div class="card">Produto 4</div>
     </div>
-  </div>
+
+  </main>
+
 </div>
 
 </body>
