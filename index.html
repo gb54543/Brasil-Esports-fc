@@ -1,61 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Brasil</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>VTR</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<div class="layout">
+<body>
+<div class="container">
 
   <!-- MENU LATERAL -->
   <aside class="sidebar">
-    <h1 class="logo">VTR</h1>
+    <div class="logo">VTR</div>
 
-    <input type="text" placeholder="Digite o que você procura">
+    <input class="search" type="text" placeholder="Digite o que você procura">
 
     <nav>
-      <a href="index.html">Início</a>
-      <a href="otimizacao.html">Otimização</a>
-      <a href="cursos.html">Cursos</a>
-      <a href="giftcards.html">Gift Cards</a>
+      <a href="#">Início</a>
+      <a href="#">Otimização</a>
+      <a href="#">Cursos</a>
+      <a href="#">Gift Cards</a>
     </nav>
   </aside>
 
   <!-- CONTEÚDO -->
-  <main class="main">
-    <div class="banner">
-      <img src="img/banner.png" alt="Banner">
-    </div>
+  <main class="content">
 
-    <section class="beneficios">
-      <div>🚚 Envios para todo o Brasil</div>
-      <div>💠 Pagamento via PIX</div>
-      <div>💳 Cartão em até 12x</div>
+    <!-- BANNER -->
+    <section class="banner">
+      <img src="img/banner.jpg">
     </section>
 
-    <section class="destaques">
+    <!-- FAIXA PRETA -->
+    <section class="info">
+      <div>🚚 Envios para todo o Brasil</div>
+      <div>💠 PIX com desconto</div>
+      <div>💳 12x no cartão</div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section class="produtos">
       <h2>Destaques</h2>
 
-      <div class="produtos">
-        <div class="card">
-          <img src="img/produto1.png">
-          <h3>Otimização FPS PRO</h3>
-          <span>R$ 49,90</span>
-        </div>
-
-        <div class="card">
-          <img src="img/produto2.png">
-          <h3>Curso Fortnite</h3>
-          <span>R$ 79,90</span>
-        </div>
+      <div class="grid">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
       </div>
     </section>
+
   </main>
-
 </div>
-
 </body>
 </html>
-
