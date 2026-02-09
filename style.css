@@ -145,8 +145,11 @@ body {
   color: #fff;
 }
 .produtos {
-  margin-left: 260px;
+  margin-left: 260px;   /* largura da sidebar */
+  padding: 40px;
   max-width: calc(100% - 260px);
+}
+
 }
 
 }
@@ -198,6 +201,7 @@ body {
   color: #777;
   margin-top: 10px;
 }
+
 
 
 
