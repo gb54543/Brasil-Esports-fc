@@ -2,42 +2,60 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>BRASIL</title>
+  <title>Brasil</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="sidebar">
-  <h1>BRASIL</h1>
-  <input type="text" placeholder="Digite o que você procura">
-  <div class="menu">
-    <a href="index.html">Início</a>
-    <a href="otimizacao.html">Otimização</a>
-    <a href="cursos.html">Cursos</a>
-    <a href="giftcards.html">Gift Cards</a>
-  </div>
-</div>
+<div class="layout">
 
-<div class="content">
-  <div class="banner"></div>
+  <!-- MENU LATERAL -->
+  <aside class="sidebar">
+    <h1 class="logo">VTR</h1>
 
-  <h2>Destaques</h2>
-  <div class="produtos">
-    <div class="card">
-      <img src="img/otimizacao.png">
-      <h3>Otimização FPS PRO</h3>
-      <strong>R$ 49,90</strong>
-      <button>Comprar</button>
+    <input type="text" placeholder="Digite o que você procura">
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="otimizacao.html">Otimização</a>
+      <a href="cursos.html">Cursos</a>
+      <a href="giftcards.html">Gift Cards</a>
+    </nav>
+  </aside>
+
+  <!-- CONTEÚDO -->
+  <main class="main">
+    <div class="banner">
+      <img src="img/banner.png" alt="Banner">
     </div>
 
-    <div class="card">
-      <img src="img/curso.png">
-      <h3>Curso Fortnite</h3>
-      <strong>R$ 79,90</strong>
-      <button>Comprar</button>
-    </div>
-  </div>
+    <section class="beneficios">
+      <div>🚚 Envios para todo o Brasil</div>
+      <div>💠 Pagamento via PIX</div>
+      <div>💳 Cartão em até 12x</div>
+    </section>
+
+    <section class="destaques">
+      <h2>Destaques</h2>
+
+      <div class="produtos">
+        <div class="card">
+          <img src="img/produto1.png">
+          <h3>Otimização FPS PRO</h3>
+          <span>R$ 49,90</span>
+        </div>
+
+        <div class="card">
+          <img src="img/produto2.png">
+          <h3>Curso Fortnite</h3>
+          <span>R$ 79,90</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
 </div>
 
 </body>
 </html>
+
