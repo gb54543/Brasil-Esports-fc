@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<title>VTR</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <title>VTR</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
-<div class="container">
 
-  <!-- MENU LATERAL -->
+<div class="layout">
+
+  <!-- SIDEBAR -->
   <aside class="sidebar">
-    <div class="logo">VTR</div>
+    <h1 class="logo">VTR</h1>
 
     <input class="search" placeholder="Digite o que você procura">
 
-    <div class="user">
-      <i class="fa-regular fa-comments"></i> Central de Atendimento
+    <div class="side-box">
+      <i class="fa-regular fa-comments"></i>
+      <span>Central de Atendimento</span>
     </div>
 
-    <div class="user">
-      <i class="fa-regular fa-user"></i> Entrar ou Cadastrar
+    <div class="side-box">
+      <i class="fa-regular fa-user"></i>
+      <span>Bem-vindo(a)<br><b>Entrar ou Cadastrar</b></span>
     </div>
 
-    <div class="cart">
+    <div class="side-box cart">
       <i class="fa-solid fa-cart-shopping"></i>
-      <span>0</span>
+      <span>Carrinho</span>
+      <b>0</b>
     </div>
 
-    <nav>
-      <a href="#">Início</a>
-      <a href="#">Otimização</a>
-      <a href="#">Cursos</a>
-      <a href="#">Gift Cards</a>
+    <nav class="menu">
+      <a>Início</a>
+      <a>Otimização</a>
+      <a>Cursos</a>
+      <a>Gift Cards</a>
     </nav>
   </aside>
 
   <!-- CONTEÚDO -->
-  <main class="content">
+  <main class="main">
 
     <!-- TOP BAR -->
-    <section class="topbar">
-      <div>🚚 Envios para todo o Brasil</div>
-      <div>💎 PIX com desconto</div>
-      <div>💳 12x no cartão</div>
+    <div class="topbar">
+      <span>🚚 Envios para todo o Brasil</span>
+      <span>💎 PIX com desconto</span>
+      <span>💳 12x no cartão</span>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Teclado<br><b>Wooting</b></h2>
+        <p>Performance máxima para competitivo</p>
+      </div>
+      <div class="hero-img"></div>
     </section>
 
-    <!-- PRODUTOS -->
+    <!-- BENEFÍCIOS -->
+    <section class="benefits">
+      <div>🚚 Envios para todo o Brasil</div>
+      <div>💎 Pagamentos via PIX</div>
+      <div>💳 Até 12x sem juros</div>
+    </section>
+
+    <!-- DESTAQUES -->
     <section class="produtos">
       <h2>Destaques</h2>
-
       <div class="grid">
         <div class="card"></div>
         <div class="card"></div>
@@ -61,5 +79,8 @@
 
   </main>
 </div>
+
 </body>
 </html>
+
+
