@@ -173,4 +173,27 @@ body {
   margin-bottom: 14px;
 }
 
+.buy {
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+  padding: 14px;
+  background: linear-gradient(135deg, #00ff88, #00cc66);
+  color: #000;
+  font-weight: 600;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.buy:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,255,136,0.4);
+}
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
 
