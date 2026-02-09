@@ -37,12 +37,27 @@ body {
   margin-bottom: 20px;
 }
 
-.user, .cart {
+.user {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 12px;
-  font-size: 14px;
+  gap: 12px;
+
+  background: #111;
+  padding: 14px 16px;
+  border-radius: 10px;
+
+  font-size: 15px;
+  cursor: pointer;
+
+  transition: background 0.3s;
+}
+
+.user i {
+  font-size: 18px;
+}
+
+.user:hover {
+  background: #1c1c1c;
 }
 
 .cart span {
@@ -102,5 +117,6 @@ body {
   background: #fff;
   border-radius: 12px;
 }
+
 
 
