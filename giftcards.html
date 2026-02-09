@@ -2,56 +2,74 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Gift Cards</title>
+  <title>BR|Store</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-<div class="sidebar">
-  <h1>BRASIL</h1>
-  <input type="text" placeholder="Digite o que você procura">
-  <div class="menu">
-    <a href="index.html">Início</a>
-    <a href="otimizacao.html">Otimização</a>
-    <a href="cursos.html">Cursos</a>
-    <a href="giftcards.html">Gift Cards</a>
-  </div>
-</div>
+<div class="layout">
 
-<div class="content">
-  <h2>Gift Cards</h2>
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h1 class="logo">BR|Store</h1>
 
-  <div class="produtos">
+    <input class="search" placeholder="Digite o que você procura">
 
-    <div class="card">
-      <img src="img/gift-psn.png">
-      <h3>Gift Card PSN R$20</h3>
-      <strong>R$ 20,00</strong>
-      <button>Comprar</button>
+    <div class="side-box">
+      <i class="fa-regular fa-comments"></i>
+      <span>Central de Atendimento</span>
     </div>
 
-    <div class="card">
-      <img src="img/gift-psn.png">
-      <h3>Gift Card PSN R$50</h3>
-      <strong>R$ 50,00</strong>
-      <button>Comprar</button>
+    <div class="side-box">
+      <i class="fa-regular fa-user"></i>
+      <span>Bem-vindo(a)<br><b>Entrar ou Cadastrar</b></span>
     </div>
 
-    <div class="card">
-      <img src="img/gift-google.png">
-      <h3>Google Play R$30</h3>
-      <strong>R$ 30,00</strong>
-      <button>Comprar</button>
+    <div class="side-box cart">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span>Carrinho</span>
+      <b>0</b>
     </div>
 
-    <div class="card">
-      <img src="img/gift-xbox.png">
-      <h3>Xbox Gift Card R$50</h3>
-      <strong>R$ 50,00</strong>
-      <button>Comprar</button>
-    </div>
+    <nav class="menu">
+  <a href="index.html">Início</a>
+  <a href="otimizacao.html">Otimização</a>
+  <a href="cursos.html">Cursos</a>
+  <a href="giftcards.html">Gift Cards</a>
+</nav>
+  </aside> 
+  <!-- CONTEÚDO -->
+  <main class="main">
 
-  </div>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Pro<br><b>Otimização</b></h2>
+        <p>Performance máxima do seu computador para games e competitivo</p>
+      </div>
+      <div class="hero-img"></div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="benefits">
+      <div>🚚 Envios rápido</div>
+      <div>💎 Pagamentos via PIX</div>
+      <div>💳 Parcelamos conforme o valor</div>
+    </section>
+
+    <!-- DESTAQUES -->
+    <section class="produtos">
+      <h2>Giftcards</h2>
+      <div class="grid">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </section>
+
+  </main>
 </div>
 
 </body>
