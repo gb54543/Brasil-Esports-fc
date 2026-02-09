@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Otimização</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h1 class="logo">BRASIL</h1>
+
+  <ul class="menu">
+    <li><a href="index.html">Início</a></li>
+    <li class="active">Otimização</li>
+    <li>Cursos</li>
+    <li>Gift Cards</li>
+  </ul>
+</div>
+
+<div class="main">
+  <h1 class="titulo">OTIMIZAÇÃO</h1>
+
+  <div class="grid">
+    <div class="card">
+      <img src="img/produto.png">
+      <h3>Otimização Windows Gamer</h3>
+      <p>R$ 39,90</p>
+      <button>Comprar</button>
+    </div>
+
+    <div class="card">
+      <img src="img/produto.png">
+      <h3>Otimização Fortnite</h3>
+      <p>R$ 59,90</p>
+      <button>Comprar</button>
+    </div>
+
+    <div class="card">
+      <img src="img/produto.png">
+      <h3>Otimização PC Fraco</h3>
+      <p>R$ 29,90</p>
+      <button>Comprar</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
