@@ -138,3 +138,9 @@ body {
   background: #fff;
   border-radius: 16px;
 }
+.atendimento-link,
+.atendimento-link span,
+.atendimento-link i {
+  color: #fff;
+}
+
