@@ -2,44 +2,67 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Cursos</title>
+  <title>BR|Store</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-<div class="sidebar">
-  <h1>BRASIL</h1>
-  <input type="text" placeholder="Digite o que você procura">
-  <div class="menu">
-    <a href="index.html">Início</a>
-    <a href="otimizacao.html">Otimização</a>
-    <a href="cursos.html">Cursos</a>
-    <a href="giftcards.html">Gift Cards</a>
-  </div>
-</div>
+<div class="layout">
 
-<div class="content">
-  <h2>Cursos</h2>
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h1 class="logo">BR|Store</h1>
 
-  <div class="produtos">
+    <input class="search" placeholder="Digite o que você procura">
 
-    <div class="card">
-      <img src="img/curso-fortnite.png">
-      <h3>Curso Fortnite Iniciante</h3>
-      <p>Do básico ao competitivo</p>
-      <strong>R$ 49,90</strong>
-      <button>Comprar</button>
+    <div class="side-box">
+      <i class="fa-regular fa-comments"></i>
+      <span>Central de Atendimento</span>
     </div>
 
-    <div class="card">
-      <img src="img/curso-avancado.png">
-      <h3>Curso Fortnite Avançado</h3>
-      <p>Build, edit e game sense</p>
-      <strong>R$ 99,90</strong>
-      <button>Comprar</button>
+    <div class="side-box">
+      <i class="fa-regular fa-user"></i>
+      <span>Bem-vindo(a)<br><b>Entrar ou Cadastrar</b></span>
     </div>
 
-  </div>
+    <div class="side-box cart">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span>Carrinho</span>
+      <b>0</b>
+    </div>
+
+    <nav class="menu">
+  <a href="index.html">Início</a>
+  <a href="otimizacao.html">Otimização</a>
+  <a href="cursos.html">Cursos</a>
+  <a href="giftcards.html">Gift Cards</a>
+</nav>
+  </aside> 
+  <!-- CONTEÚDO -->
+  <main class="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Pro<br><b>Otimização</b></h2>
+        <p>Performance máxima do seu computador para games e competitivo</p>
+      </div>
+      <div class="hero-img"></div>
+    </section>
+
+    <!-- DESTAQUES -->
+    <section class="produtos">
+      <h2>Cursos</h2>
+      <div class="grid">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </section>
+
+  </main>
 </div>
 
 </body>
