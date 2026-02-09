@@ -126,9 +126,10 @@ body {
   text-align: center;
   margin-bottom: 40px;
 }
-  .grid {
-  width: 100%;
-  box-sizing: border-box;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 
 }
@@ -197,6 +198,7 @@ body {
   color: #777;
   margin-top: 10px;
 }
+
 
 
 
