@@ -138,4 +138,23 @@ body {
   background: #fff;
   border-radius: 16px;
 }
+.content {
+  padding: 40px;
+  width: calc(100% - 260px);
+  margin-left: 260px;
+}
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  height: 260px;
+  background: #fff;
+  border-radius: 16px;
+}
+
 
