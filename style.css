@@ -60,12 +60,32 @@ body {
   background: #1c1c1c;
 }
 
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #111;
+  padding: 16px;
+  border-radius: 12px;
+
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+  cursor: pointer;
+}
+
+.cart i {
+  font-size: 20px;
+}
+
 .cart span {
-  background: #0f0;
+  background: #00ff66;
   color: #000;
-  padding: 2px 6px;
-  border-radius: 50%;
-  font-size: 12px;
+
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 20px;
 }
 
 .sidebar nav {
@@ -117,6 +137,7 @@ body {
   background: #fff;
   border-radius: 12px;
 }
+
 
 
 
