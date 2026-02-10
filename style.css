@@ -9,6 +9,14 @@ body {
   background: #000;
   color: #fff;
 }
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .layout {
   display: flex;
@@ -135,9 +143,15 @@ body {
 }
 
 .card {
-  height: 260px;
+  width: 280px;        /* largura fixa bonita */
+  max-width: 100%;
   background: #fff;
-  border-radius: 16px;
+  color: #000;
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 30px;
+}
+
 }
 .atendimento-link,
 .atendimento-link span,
@@ -201,6 +215,7 @@ body {
   color: #777;
   margin-top: 10px;
 }
+
 
 
 
