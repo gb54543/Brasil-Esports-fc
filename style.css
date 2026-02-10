@@ -148,11 +148,9 @@ body {
   padding: 24px;
   margin-bottom: 30px;
 }
-
-}
-.atendimento-link,
-.atendimento-link span,
-.atendimento-link i {
+.atendimento-link:visited,
+.atendimento-link:hover,
+.atendimento-link:active {
   color: #fff;
 }
 .produtos {
@@ -213,6 +211,7 @@ body {
   color: #777;
   margin-top: 10px;
 }
+
 
 
 
