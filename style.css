@@ -9,15 +9,8 @@ body {
   background: #000;
   color: #fff;
 }
-* {
-  box-sizing: border-box;
-}
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
 }
-
 .layout {
   display: flex;
   min-height: 100vh;
@@ -215,6 +208,7 @@ html, body {
   color: #777;
   margin-top: 10px;
 }
+
 
 
 
