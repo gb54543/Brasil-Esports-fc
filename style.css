@@ -158,8 +158,6 @@ body {
 }
 
 }
-
-}
 .produtos h2 {
   font-size: 28px;
   margin-bottom: 30px;
@@ -182,30 +180,7 @@ body {
   color: #555;
   margin-bottom: 14px;
 }
-.buy {
-  display: block;
-  margin-top: 18px;
-  padding: 14px;
-  background: linear-gradient(135deg, #00ff88, #00cc66);
-  color: #000;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 12px;
-  text-decoration: none;
-}
 
-.buy:hover {
-  background: linear-gradient(135deg, #00cc66, #00ff88);
-}
-.buy:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,255,136,0.4);
-}
-.price {
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 10px;
-}
 
 
 
