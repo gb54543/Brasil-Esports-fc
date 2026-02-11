@@ -390,11 +390,6 @@ body {
   flex-wrap: wrap;
 }
 
-.cursos-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
   min-height: 100vh;
   padding-top: 80px;
@@ -413,9 +408,6 @@ body {
   margin-bottom: 50px;
   text-align: center;
 }
-.cursos-section {
-  text-align: center;
-}
 
 .produtos {
   display: flex;
@@ -424,10 +416,7 @@ body {
   margin-top: 40px;
 }
 
-.cursos-section {
-  margin-left: 270px;
-  margin-top: 60px;
-}
+
 
 
 
