@@ -26,6 +26,11 @@ body {
   background: #000;
   padding: 20px;
 }
+  
+.sidebar {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
 
 .logo {
   font-size: 38px;
@@ -351,6 +356,7 @@ body {
 .produto-card {
   margin-top: 40px;
 }
+
 
 
 
