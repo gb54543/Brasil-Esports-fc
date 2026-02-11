@@ -400,6 +400,12 @@ body {
   padding-top: 80px;
 }
 
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
 
 
 
