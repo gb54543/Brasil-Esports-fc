@@ -413,11 +413,18 @@ body {
   margin-bottom: 50px;
   text-align: center;
 }
-
-main {
-  margin-left: 250px; /* mesma largura da sidebar */
-  padding: 60px;
+.cursos-section {
+  text-align: center;
 }
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+
 
 
 
