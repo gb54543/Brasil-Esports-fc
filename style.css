@@ -45,6 +45,31 @@ body {
   border: none;
   margin-bottom: 20px;
 }
+.sidebar a,
+.sidebar li {
+  display: block;
+  margin: 18px 0;     /* espaço entre itens */
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;  /* espaço entre letras */
+}
+  
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #ccc;
+  padding-left: 5px;
+}
+.categoria {
+  margin: 22px 0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
 
 /* BOTÕES GRANDES */
 .side-box {
@@ -356,6 +381,7 @@ body {
 .produto-card {
   margin-top: 40px;
 }
+
 
 
 
