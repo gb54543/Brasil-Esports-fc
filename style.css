@@ -406,6 +406,14 @@ body {
   gap: 60px;
 }
 
+.titulo-cursos {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 
 
 
