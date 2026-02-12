@@ -416,6 +416,12 @@ body {
   margin-top: 40px;
 }
 
+.cursos-section {
+  margin-left: 250px; /* MESMO valor da sidebar */
+  padding: 40px;
+}
+
+
 
 
 
