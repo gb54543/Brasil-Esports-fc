@@ -32,10 +32,11 @@ body {
   color: white;
 }
 
-.logo {
-  font-size: 38px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.logo img {
+  height: 45px;   /* aumenta ou diminui aqui */
+  width: auto;
+}
+
 }
 
 .search {
@@ -424,6 +425,7 @@ body {
 .produtos {
   margin-left: 0;
 }
+
 
 
 
