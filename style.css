@@ -63,10 +63,10 @@ body {
 .sidebar a,
 .sidebar li {
   display: block;
-  margin: 17px 0;     /* espaço entre itens */
+  margin: 25px 0;     /* espaço entre itens */
   font-size: 15px;
   font-weight: 500;
-  letter-spacing: 0.5px;  /* espaço entre letras */
+  letter-spacing: 0.7px;  /* espaço entre letras */
 }
   
 .sidebar a {
@@ -474,6 +474,7 @@ body {
   text-decoration: none;
   transition: 0.3s;
 }
+
 
 
 
