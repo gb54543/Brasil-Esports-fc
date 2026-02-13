@@ -36,7 +36,7 @@ body {
 
 .logo img {
   margin-left: -50px;
-  height: 300px;   /* aumenta aqui */
+  height: 350px;   /* aumenta aqui */
   width: auto;
   display: block;
 }
@@ -435,6 +435,7 @@ body {
 .produtos {
   margin-left: 0;
 }
+
 
 
 
