@@ -440,26 +440,22 @@ body {
   margin-left: 0;
 }
 
-.barra-pesquisa input {
+.search {
   width: 85%;
   padding: 12px 20px;
   border-radius: 30px;
   border: none;
-  background: #2a2a2a;  /* cinza elegante */
+  background: #2f2f2f; /* cinza bonito */
   color: #fff;
   outline: none;
   font-size: 14px;
+  display: block;
+  margin: 20px auto;
 }
 
-.barra-pesquisa input::placeholder {
+.search::placeholder {
   color: #aaa;
 }
-.sidebar ul li {
-  font-size: 16px;
-  margin: 18px 0;
-  letter-spacing: 1px;
-}
-
 
 
 
