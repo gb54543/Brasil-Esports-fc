@@ -457,6 +457,24 @@ body {
   color: #aaa;
 }
 
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.sidebar ul li {
+  margin: 22px 0;   /* espaço entre categorias */
+}
+
+.sidebar ul li a {
+  font-size: 17px;  /* maior */
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
 
 
 
