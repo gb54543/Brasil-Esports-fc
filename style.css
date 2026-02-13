@@ -35,13 +35,13 @@ body {
 }
 
 .logo img {
-  margin-left: -50px;
+  margin-left: -65px;
   height: 350px;   /* aumenta aqui */
   width: auto;
   display: block;
 }
 .logo {
-  margin-left: -50px;
+  margin-left: -65px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -435,6 +435,7 @@ body {
 .produtos {
   margin-left: 0;
 }
+
 
 
 
