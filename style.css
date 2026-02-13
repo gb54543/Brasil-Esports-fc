@@ -36,16 +36,16 @@ body {
 
 .logo img {
   
-  margin-top: -55px; /* sobe */
-  margin-left: -72px;
+  margin-top: -75px; /* sobe */
+  margin-left: -73px;
   height: 350px;   /* aumenta aqui */
   width: auto;
   display: block;
 }
 .logo {
 
-  margin-top: -55px; /* sobe */
-  margin-left: -72px;
+  margin-top: -75px; /* sobe */
+  margin-left: -73px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -439,6 +439,7 @@ body {
 .produtos {
   margin-left: 0;
 }
+
 
 
 
