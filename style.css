@@ -454,6 +454,12 @@ body {
 .barra-pesquisa input::placeholder {
   color: #aaa;
 }
+.sidebar ul li {
+  font-size: 16px;
+  margin: 18px 0;
+  letter-spacing: 1px;
+}
+
 
 
 
