@@ -31,9 +31,15 @@ body {
   font-family: 'Poppins', sans-serif;
   color: white;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
 
 .logo img {
-  height: 260px;   /* aumenta aqui */
+  height: 300px;   /* aumenta aqui */
   width: auto;
 }
 
@@ -425,6 +431,7 @@ body {
 .produtos {
   margin-left: 0;
 }
+
 
 
 
