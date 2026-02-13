@@ -59,7 +59,7 @@ body {
 .sidebar a,
 .sidebar li {
   display: block;
-  margin: 19px 0;     /* espaço entre itens */
+  margin: 17px 0;     /* espaço entre itens */
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.5px;  /* espaço entre letras */
@@ -435,6 +435,7 @@ body {
 .produtos {
   margin-left: 0;
 }
+
 
 
 
