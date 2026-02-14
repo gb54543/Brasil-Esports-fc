@@ -4,26 +4,62 @@
   <meta charset="UTF-8">
   <title>Cadastro - BR|Store</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-<div class="cadastro-container">
-  <div class="cadastro-box">
+<div class="layout">
 
-    <h2>Criar Conta</h2>
+  <!-- SIDEBAR (igual da index) -->
+  <aside class="sidebar">
 
-    <form>
-      <input type="text" placeholder="Nome completo" required>
-      <input type="email" placeholder="E-mail" required>
-      <input type="password" placeholder="Senha" required>
-      <input type="password" placeholder="Confirmar senha" required>
+    <a href="index.html" class="logo">
+      <img src="logo.png" alt="Logo">
+    </a>
 
-      <button type="submit">Cadastrar</button>
-    </form>
+    <input class="search" placeholder="Digite o que você procura">
 
-    <p>Já tem conta? <a href="#">Entrar</a></p>
+    <a href="#" class="side-box">
+      <i class="fa-regular fa-comments"></i>
+      <span>Central de <b>Atendimento</b></span>
+    </a>
 
-  </div>
+    <a href="cadastro.html" class="side-box">
+      <i class="fa-regular fa-user"></i>
+      <span>Bem-vindo(a)<br><b>Entrar ou Cadastrar</b></span>
+    </a>
+
+    <div class="side-box cart">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <b>0</b>
+    </div>
+
+  </aside>
+
+  <!-- CONTEÚDO -->
+  <main class="main">
+
+    <div class="cadastro-container">
+      <div class="cadastro-box">
+
+        <h2>Criar Conta</h2>
+
+        <form>
+          <input type="text" placeholder="Nome completo" required>
+          <input type="email" placeholder="E-mail" required>
+          <input type="password" placeholder="Senha" required>
+          <input type="password" placeholder="Confirmar senha" required>
+
+          <button type="submit">Cadastrar</button>
+        </form>
+
+        <p>Já tem conta? <a href="#">Entrar</a></p>
+
+      </div>
+    </div>
+
+  </main>
+
 </div>
 
 </body>
