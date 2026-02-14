@@ -603,12 +603,10 @@ body {
 }
 
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #f2f2f2;
+    background: #f3f3f3;
+    font-family: Arial, sans-serif;
 }
 
-/* Área principal */
 .identificacao {
     max-width: 1100px;
     margin: 60px auto;
@@ -620,27 +618,24 @@ body {
     margin-bottom: 5px;
 }
 
-.identificacao .sub {
+.sub {
     color: #777;
     margin-bottom: 30px;
 }
 
-/* Container dos cards */
 .cards {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
 }
 
-/* Card branco bonito */
 .card {
-    background: #ffffff;
+    background: #fff;
     padding: 30px;
     border-radius: 8px;
     flex: 1;
     min-width: 320px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    border: 1px solid #e5e5e5;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
 .card h3 {
@@ -648,7 +643,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Inputs */
 .card label {
     display: block;
     margin-top: 15px;
@@ -661,15 +655,8 @@ body {
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    transition: 0.3s;
 }
 
-.card input:focus {
-    border-color: black;
-    outline: none;
-}
-
-/* Botão */
 .btn {
     margin-top: 20px;
     padding: 10px 20px;
@@ -678,7 +665,6 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 .btn:hover {
@@ -689,14 +675,7 @@ body {
     margin-top: 10px;
     font-size: 13px;
     color: #666;
-    cursor: pointer;
 }
-
-
-
-
-
-
 
 
 
