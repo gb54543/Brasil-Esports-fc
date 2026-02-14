@@ -476,9 +476,9 @@ body {
 }
 
 .sidebar .box {
-  background: transparent;
-  border: none;
-  box-shadow: none;
+  background: #000;   /* preto */
+  border-radius: 12px; /* opcional */
+  padding: 12px;
 }
 
 
