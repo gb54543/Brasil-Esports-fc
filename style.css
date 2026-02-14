@@ -489,44 +489,47 @@ body {
   border-radius: 12px;
   padding: 12px;
 }
-.container-cadastro {
-  width: 350px;
-  margin: 100px auto;
+.cadastro-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f0f0f;
+}
+
+.cadastro-box {
+  background: #1a1a1a;
   padding: 40px;
-  background: #111;
-  border-radius: 20px;
+  width: 400px;
+  border-radius: 10px;
+  color: white;
   text-align: center;
 }
 
-.container-cadastro h2 {
-  margin-bottom: 30px;
-}
-
-.container-cadastro input {
+.cadastro-box input {
   width: 100%;
   padding: 12px;
   margin: 10px 0;
-  border-radius: 10px;
   border: none;
-  background: #2a2a2a;
-  color: white;
+  border-radius: 6px;
 }
 
-.container-cadastro button {
+.cadastro-box button {
   width: 100%;
   padding: 12px;
-  margin-top: 15px;
+  background: #ff3c00;
   border: none;
-  border-radius: 10px;
-  background: white;
-  color: black;
+  border-radius: 6px;
+  color: white;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.3s;
+  margin-top: 10px;
 }
 
-.container-cadastro button:hover {
-  background: #ccc;
+.cadastro-box button:hover {
+  opacity: 0.9;
+}
+
 }
 
 .modal {
@@ -555,6 +558,7 @@ body {
   background: #2a2a2a;
   color: white;
 }
+
 
 
 
