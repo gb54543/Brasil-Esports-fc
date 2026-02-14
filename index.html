@@ -29,10 +29,11 @@
   <span>Central de <b>Atendimento</b></span>
 </a>
 
-    <div class="side-box">
-      <i class="fa-regular fa-user"></i>
-      <span>Bem-vindo(a)<br><b>Entrar ou Cadastrar</b></span>
-    </div>
+  <div class="side-box" onclick="abrirCadastro()">
+  <i class="fa-regular fa-user"></i>
+  <span>Bem-vindo(a)<br><b>Entrar ou Cadastrar</b></span>
+</div>
+
 
     <div class="side-box cart">
       <i class="fa-solid fa-cart-shopping"></i>
@@ -120,12 +121,33 @@
   </div>
 </section>
 
+<div id="modalCadastro" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharCadastro()">×</span>
+    <h2>Criar Conta</h2>
+    <input type="text" placeholder="Nome">
+    <input type="email" placeholder="E-mail">
+    <input type="password" placeholder="Senha">
+    <button>Cadastrar</button>
+  </div>
+</div>
+
+<script>
+function abrirCadastro() {
+  document.getElementById("modalCadastro").style.display = "flex";
+}
+
+function fecharCadastro() {
+  document.getElementById("modalCadastro").style.display = "none";
+}
+</script>
 
   </main>
 </div>
 
 </body>
 </html>
+
 
 
 
