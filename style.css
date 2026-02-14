@@ -45,7 +45,7 @@ body {
 .logo {
 
   margin-top: -87px; /* sobe */
-  margin-left: -40px;
+  margin-left: -73px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -489,6 +489,7 @@ body {
   border-radius: 12px;
   padding: 12px;
 }
+
 
 
 
