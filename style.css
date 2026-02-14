@@ -11,16 +11,9 @@ html, body {
   width: 100%;
   overflow-x: hidden;
 }
-  body {
-  margin: 0;
-  background: linear-gradient(
-    to bottom,
-    #1a1a1a 0%,
-    #2a2a2a 30%,
-    #3a3a3a 60%,
-    #4a4a4a 100%
-  );
-  background-attachment: fixed;
+body {
+  background: #000;
+  color: #ffff
 }
 }
 .layout {
@@ -497,6 +490,7 @@ html, body {
   border-radius: 12px;
   padding: 12px;
 }
+
 
 
 
