@@ -224,7 +224,7 @@ body {
 }
 .card p {
   font-size: 14px;
-  color: #555;
+  color: #010102;
   margin-bottom: 14px;
 }
 
@@ -480,6 +480,7 @@ body {
   border-radius: 12px; /* opcional */
   padding: 12px;
 }
+
 
 
 
