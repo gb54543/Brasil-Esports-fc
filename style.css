@@ -603,53 +603,44 @@ body {
 }
 
 body {
-    background: #f3f3f3;
+    margin: 0;
     font-family: Arial, sans-serif;
+    background: #f2f2f2;
 }
 
-.identificacao {
-    max-width: 1100px;
-    margin: 60px auto;
-    padding: 0 20px;
+/* Centraliza tudo */
+.pagina-login {
+    padding-top: 60px;
 }
 
-.identificacao h2 {
-    font-size: 28px;
-    margin-bottom: 5px;
+/* Caixa branca */
+.box-login {
+    background: white;
+    width: 400px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.box-login h2 {
+    margin-top: 0;
 }
 
 .sub {
     color: #777;
-    margin-bottom: 30px;
-}
-
-.cards {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.card {
-    background: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    flex: 1;
-    min-width: 320px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-}
-
-.card h3 {
-    margin-top: 0;
     margin-bottom: 20px;
 }
 
-.card label {
+.box-login label {
     display: block;
     margin-top: 15px;
     font-weight: 500;
 }
 
-.card input {
+.box-login input {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -658,8 +649,9 @@ body {
 }
 
 .btn {
+    width: 100%;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 12px;
     background: black;
     color: white;
     border: none;
@@ -671,14 +663,30 @@ body {
     background: #333;
 }
 
-.esqueceu {
-    margin-top: 10px;
-    font-size: 13px;
-    color: #666;
+.cadastro-link {
+    margin-top: 15px;
+    font-size: 14px;
 }
 
+/* Faixa cinza inferior */
+.info-cinza {
+    margin-top: 80px;
+    background: #e9e9e9;
+    padding: 40px 0;
+}
 
+.info-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
 
+.info-item {
+    margin: 10px 20px;
+}
 
 
 
