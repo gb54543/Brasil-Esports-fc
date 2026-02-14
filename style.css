@@ -482,12 +482,14 @@ body {
 }
 
 
-.sidebar a {
+.sidebar a,
+.sidebar div,
+.sidebar button {
   background: #000 !important;
   border-radius: 12px;
   padding: 12px;
-  display: block;
 }
+
 
 
 
