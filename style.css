@@ -558,6 +558,50 @@ body {
   background: #2a2a2a;
   color: white;
 }
+.cadastro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cadastro-box {
+  background: #1a1a1a;
+  padding: 40px;
+  width: 400px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.cadastro-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cadastro-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 6px;
+}
+
+.cadastro-box button {
+  width: 100%;
+  padding: 12px;
+  background: #ff3c00;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cadastro-box button:hover {
+  opacity: 0.9;
+}
+
 
 
 
