@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container-cadastro">
+  <h2>Criar Conta</h2>
+
+  <form>
+    <input type="text" placeholder="Nome completo" required>
+    <input type="email" placeholder="E-mail" required>
+    <input type="password" placeholder="Senha" required>
+    <input type="password" placeholder="Confirmar senha" required>
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <p>Já tem conta? <a href="#">Entrar</a></p>
+</div>
+
+</body>
+</html>
