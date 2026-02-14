@@ -15,7 +15,6 @@ body {
   background: #000;
   color: #ffff
 }
-}
 .layout {
   display: flex;
   min-height: 100vh;
@@ -490,6 +489,7 @@ body {
   border-radius: 12px;
   padding: 12px;
 }
+
 
 
 
