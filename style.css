@@ -212,7 +212,7 @@ body {
 
 .card {
   background: #fff;
-  color: #292929;
+  color: #010102;
   border-radius: 18px;
   padding: 24px;
   width: 300px;
@@ -480,6 +480,7 @@ body {
   border-radius: 12px; /* opcional */
   padding: 12px;
 }
+
 
 
 
