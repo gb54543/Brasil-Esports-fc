@@ -687,6 +687,30 @@ body {
 .info-item {
     margin: 10px 20px;
 }
+/* Ajusta o conteúdo por causa do menu lateral */
+.pagina-login {
+    margin-left: 260px; /* largura aproximada do seu menu preto */
+    padding: 80px 40px;
+}
+
+/* Centraliza a caixa */
+.box-login {
+    background: white;
+    width: 420px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* Faixa cinza alinhada corretamente */
+.info-cinza {
+    margin-top: 80px;
+    background: #e5e5e5;
+    padding: 50px 0;
+}
+
 
 
 
